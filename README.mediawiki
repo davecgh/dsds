@@ -1,0 +1,35 @@
+<img src="./readme-imgs/dsds_logo.png" />
+
+==Decred Specification Documents==
+
+A Decred Specification Document, or DSD for short, is a design document that
+describes a potential open technical standard intended primarily for use within
+the Decred ecosystem.  Note that, unlike [[https://github.com/decred/dcps|Decred Change Proposals (DCPs)]],
+which specifically deal with proposed changes to Decred consensus rules enforced
+by all fully-validating nodes and thus require a super-majority stakeholder
+approval via the integrated on-chain proof-of-stake voting infrastructure, DSDs
+deal with non-consensus aspects aimed at fostering a thriving and collaborative
+ecosystem of applications, products, services, integrations, and
+interoperability.
+
+Consequently, since there is no requirement for standards to be implemented for
+operation of the Decred blockchain itself, the process for adding DSDs is much
+less formal than it is for consensus changes.  In particular, it should be noted
+that the existence of a DSD does not inherently make it a formally approved or
+finalized standard.  Once a DSD is considered finalized by its authors, the
+status will be marked <code>Final</code>, and if it is implemented by components
+that are in widespread use by the Decred ecosystem, the status will be marked
+<code>Active</code>.  There is no intention to provide, nor any expectation to
+have, any type of centralized approval process in order to allow best practices
+and standards to be established organically through providing tangible results.
+
+Some examples of the type of documents that are appropriate for this repository
+are standards for address formats, URI schemes, deterministic key derivation,
+wallet seed encoding, multi-party communication protocols, payment protocols,
+peer services, and mining pool protocols.
+
+{|class="wikitable sortable" style="width: auto; text-align: center;"
+!Number!!Category!!Title!!Status
+|-
+|0000|| - ||DSD Process||TBD
+|}
